@@ -28,7 +28,7 @@ A lightweight HTTP server written in Java that serves static HTML files.
    ```
 2. Compile the Java server:
    ```sh
-   javac src/HttpServer.java
+   javac src/HttpServer.java -d bin
    ```
 3. Run the server:
    ```sh
