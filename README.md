@@ -32,7 +32,7 @@ A lightweight HTTP server written in Java that serves static HTML files.
    ```
 3. Run the server:
    ```sh
-   java src.HttpServer
+   java -cp bin HttpServer
    ```
 4. Open your browser and visit:
    ```
