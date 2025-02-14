@@ -1,0 +1,6 @@
+[2025-02-13 00:13:25] Server started at http://localhost:8080
+[2025-02-13 00:13:25] Document root: www
+[2025-02-13 00:15:36] Request: GET / from 0:0:0:0:0:0:0:1 [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36] took 19ms
+[2025-02-13 00:15:38] Request: GET /favicon.ico from 0:0:0:0:0:0:0:1 [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36] took 2ms
+[2025-02-13 00:16:07] Request: GET / from 0:0:0:0:0:0:0:1 [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36] took 0ms
+[2025-02-13 00:21:50] Request: GET / from 0:0:0:0:0:0:0:1 [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36] took 4ms
