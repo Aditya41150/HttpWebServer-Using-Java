@@ -1,18 +1,40 @@
-## Getting Started
+# Simple Java HTTP Server
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A lightweight HTTP server written in Java that serves static HTML files.
 
-## Folder Structure
+## Features
+- Serves an `index.html` file from a `public/` directory
+- Basic 404 error handling
+- Lightweight and minimal dependencies
 
-The workspace contains two folders by default, where:
+## Project Structure
+```
+/YourProjectFolder
+├── /public
+│   ├── index.html  # Main HTML file
+├── /src
+│   ├── HttpServer.java  # Java HTTP Server
+├── README.md
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Prerequisites
+- Java Development Kit (JDK) installed (Java 8+ recommended)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Setup & Running the Server
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Aditya41150/HttpWebServer-Using-Java.git
+   cd HttpWebServer-Using-Java
+   ```
+2. Compile the Java server:
+   ```sh
+   javac src/HttpServer.java
+   ```
+3. Run the server:
+   ```sh
+   java src.HttpServer
+   ```
+4. Open your browser and visit:
+   ```
+   http://localhost:8080/
+   ```
