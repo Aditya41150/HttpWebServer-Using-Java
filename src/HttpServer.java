@@ -4,7 +4,6 @@ import java.nio.file.Files;
 
 public class HttpServer {
     public static void main(String[] args) {
-        // hello 
         int port = 8080; // Server Port
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Server started at http://localhost:" + port);
